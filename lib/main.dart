@@ -345,7 +345,7 @@ class MyStatelessWidget extends StatelessWidget {
                                 left: 5,
                                 right: 3,
                                 child: Container(
-                                  color: Color.fromARGB(255, 151, 99, 2),
+                                  color: const Color.fromARGB(255, 151, 99, 2),
                                   width: 200,
                                   height: 20,
                                   child: const Text(
