@@ -26,7 +26,7 @@ class MyStatelessWidget extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           leading: Container(
-            color: const Color.fromARGB(155, 2, 2, 2),
+            color: Color.fromARGB(208, 244, 248, 2),
             height: 60,
             child: Image.asset(
               'znak.png',
@@ -338,7 +338,8 @@ class MyStatelessWidget extends StatelessWidget {
                               width: 200,
                               height: 600,
                               color: const Color.fromARGB(170, 154, 154, 154),
-                              child: Image.asset('dolg.png', fit: BoxFit.fill),
+                              child:
+                                  Image.asset('monolit.png', fit: BoxFit.fill),
                             ),
                             Positioned(
                                 top: 0,
