@@ -6,7 +6,7 @@ void main() => runApp(const MyApp());
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  static const String _title = 'СТАЛКЕР';
+  static const String _title = 'СТАЛКЕРv1.0';
 
   @override
   Widget build(BuildContext context) {
@@ -60,9 +60,14 @@ class MyStatelessWidget extends StatelessWidget {
           ),
         ),
         body: Center(
-          child: Container(
-            color: Colors.grey,
-            child: Column(children: [
+          child: Stack(children: [
+            Image.asset(
+              'back_fon.jpg',
+              fit: BoxFit.fill,
+              width: 1920,
+              height: 1080,
+            ),
+            Column(children: [
               Container(height: 100),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -390,7 +395,7 @@ class MyStatelessWidget extends StatelessWidget {
                 ],
               )
             ]),
-          ),
+          ]),
         ),
       ),
     );

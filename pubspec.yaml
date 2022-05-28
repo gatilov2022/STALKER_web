@@ -74,6 +74,7 @@ flutter:
     - assets/image/pin/pin_mon.png
     - assets/image/pin/pin_s.png
     - assets/image/pin/pin_stal.png
+    - assets/back_fon.jpg
 
   # To add assets to your application, add an assets section, like this:
   # assets:
